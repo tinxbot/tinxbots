@@ -227,7 +227,7 @@ function create_config( )
     about_text = [[tinxbot v1
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/tinxbot/tinxbots
 
 Admins
 @md_mhb24 [Founder]
