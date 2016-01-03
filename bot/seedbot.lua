@@ -222,7 +222,7 @@ function create_config( )
     },
     sudo_users = {131605766,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {77451432},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[tinxbot v1
 An advance Administration bot based on yagop/telegram-bot 
