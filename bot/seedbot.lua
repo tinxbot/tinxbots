@@ -242,98 +242,61 @@ Our channels
     help_text = [[
 Commands list :
 
+لیست دستورات بات :
 !kick [username|id]
-You can also do it by reply
-
+شخص مورد نظر از گروه کیک میشود.
+(( با ریپلای هم میتونید این کار رو انجام بدین))
 !ban [ username|id]
-You can also do it by reply
-
+شخص مورد نظر بن شده و دیگر نمیتواند به گروه وارد شود
+(( با ریپلای هم میتونید این کار رو انجام بدین))
 !unban [id]
-You can also do it by reply
-
+شخص مورد نظر از بن خارج میشود
+(( با ریپلای هم میتونید این کار رو انجام بدین))
 !who
-Members list
-
+لیست ممبر ها
 !modlist
-Moderators list
-
+لیست ادمین ها
 !promote [username]
-Promote someone
-
+شخص مورد نظر ادمین میشود
 !demote [username]
-Demote someone
-
+شخص مورد نظر از ادمین بودن خارج میشود
 !kickme
-Will kick user
-
+با فرستادن این دستور از گروه کیک میشوید
 !about
-Group description
-
+درباره گروه
 !setphoto
-Set and locks group photo
-
+قرار دادن عکس و قفل کردن آن
 !setname [name]
-Set group name
-
+تعویض نام گروه و قفل کردن آن
 !rules
-Group rules
-
+قوانین گروه
 !id
-return group id or user id
-
+آیدی گروه یا شخص مورد نظر
 !help
-
+راهنما
 !lock [member|name|bots]
-Locks [member|name|bots] 
-
+لاک کردن [member|name|bots]
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
-
+آنلاک کردن [member|name|photo|bots]
 !set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
-
+انتخاب <text> برای قوانین
 !settings
-Returns group settings
-
+نشان دادن تنظیمات گروه
 !newlink
-create/revoke your group link
-
+لینک جدید
 !link
-returns group link
-
+لینک گروه
 !owner
-returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
+نمایش آیدی صاحب گروه
 !stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
+آمار پیام ها
 !res [username]
-returns user id
-"!res @username"
-
-!log
-will return group logs
-
+نشان دادن آیدی شخص مورد نظر
+!res @username
+!echo []
+تکرار جمله
 !banlist
-will return group ban list
+لیست کسانی که بن شده اند
 
 **U can use both "/" and "!" 
 
